@@ -1,0 +1,362 @@
+[
+{
+    "id":1,
+    "nombre":"Blusa de manga corta",
+    "precio":149.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/1.jfif"
+},
+{
+    "id":2,
+    "nombre":"Blusa de manga corta",
+    "precio":199.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/2.jfif"
+},
+{
+    "id":3,
+    "nombre":"Blusa de manga larga",
+    "precio":199.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/3.jfif"
+},
+{
+    "id":4,
+    "nombre":"Blusa de manga larga",
+    "precio":189.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/4.jfif"
+},
+{
+    "id":5,
+    "nombre":"Blusa de manga larga",
+    "precio":199.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/5.jfif"
+},
+{
+    "id":6,
+    "nombre":"Top de cuello",
+    "precio":199.99,
+    "categoria":"Top",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/6.jfif"
+},
+{
+    "id":7,
+    "nombre":"top",
+    "precio":149.99,
+    "categoria":"top",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/7.jpg"
+},
+{
+    "id":8,
+    "nombre":"Blusa de tirantes",
+    "precio":159.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/8.jpg"
+},
+{
+    "id":9,
+    "nombre":"Blusa de tirantes",
+    "precio":149.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/9.jpg"
+},
+{
+    "id":10,
+    "nombre":"Blusa de mezclilla",
+    "precio":249.99,
+    "categoria":"Blusa",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/10.jpg"
+},
+{
+    "id":11,
+    "nombre":"Sueter",
+    "precio":249.99,
+    "categoria":"Sueter",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/11.jfif"
+},
+{
+    "id":12,
+    "nombre":"Sueter",
+    "precio":249.99,
+    "categoria":"Sueter",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/12.jfif"
+},
+{
+    "id":13,
+    "nombre":"Sueter",
+    "precio":249.99,
+    "categoria":"Sueter",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/13.jfif"
+},
+{
+    "id":14,
+    "nombre":"Sueter",
+    "precio":249.99,
+    "categoria":"Sueter",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/14.jfif"
+},
+{
+    "id":15,
+    "nombre":"Sueter",
+    "precio":249.99,
+    "categoria":"Sueter",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/15.jfif"
+},
+{
+    "id":16,
+    "nombre":"Blusa deportiva",
+    "precio":99.99,
+    "categoria":"Blusa deportiva",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/16.jfif"
+},
+{
+"id":17,
+    "nombre":"Blusa deportiva",
+    "precio":199.99,
+    "categoria":"Blusa deportiva",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/17.jfif"
+},
+{
+"id":18,
+    "nombre":"Blusa deportiva",
+    "precio":199.99,
+    "categoria":"Blusa deportiva",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/18.jfif"
+},
+{
+"id":19,
+    "nombre":"Blusa deportiva",
+    "precio":149.99,
+    "categoria":"Blusa deportiva",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/19.jfif"
+},
+{
+"id":20,
+    "nombre":"Blusa deportiva",
+    "precio":149.99,
+    "categoria":"Blusa deportiva",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/20.jfif"
+},
+{
+    "id":21,
+    "nombre":"Falda de mezclilla",
+    "precio":129.99,
+    "categoria":"Falda",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/21.jpg"
+},
+{
+    "id":22,
+    "nombre":"Falda",
+    "precio":169.99,
+    "categoria":"Falda",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/22.jpg"
+},
+{
+    "id":23,
+    "nombre":"Falda larga con botones",
+    "precio":199.99,
+    "categoria":"Falda",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/23.jpg"
+},
+{
+    "id":24,
+    "nombre":"Falda corta",
+    "precio":129.99,
+    "categoria":"Falda",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/24.jpg"
+},
+{
+    "id":25,
+    "nombre":"Falda corta",
+    "precio":129.99,
+    "categoria":"Falda",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/25.jpg"
+},
+{
+    "id":26,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/26.jpg"
+},
+{
+    "id":27,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/27.jpg"
+},
+{
+    "id":28,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/28.jpg"
+},
+{
+    "id":29,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/29.jpg"
+},
+{
+    "id":30,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/30.jpg"
+},
+{
+    "id":31,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon mezclilla",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/31.jpg"
+},
+{
+    "id":32,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon mezclilla",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/32.jpg"
+},
+{
+    "id":33,
+    "nombre":"Pantalon vaquero",
+    "precio":249.99,
+    "categoria":"Pantalon mezclilla",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/33.jpg"
+},
+{
+    "id":34,
+    "nombre":"Pantalon vaquero",
+    "precio":249.99,
+    "categoria":"Pantalon mezclilla",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/34.jpg"
+},
+{
+    "id":35,
+    "nombre":"Pantalon ancho",
+    "precio":249.99,
+    "categoria":"Pantalon mezclilla",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/35.jpg"
+},
+{
+    "id":36,
+    "nombre":"Short",
+    "precio":199.99,
+    "categoria":"Short",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/36.jpg"
+},
+{
+    "id":37,
+    "nombre":"Short",
+    "precio":249.99,
+    "categoria":"Short",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/37.jpg"
+},
+{
+    "id":38,
+    "nombre":"Short",
+    "precio":249.99,
+    "categoria":"Short",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/38.jpg"
+},
+{
+    "id":39,
+    "nombre":"Short",
+    "precio":249.99,
+    "categoria":"Short",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/39.jpg"
+},
+{
+    "id":40,
+    "nombre":"Short",
+    "precio":249.99,
+    "categoria":"Short",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/40.jpg"
+},
+{
+    "id":41,
+    "nombre":"Vestido rojo",
+    "precio":239.99,
+    "categoria":"Vestido",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/41.jfif"
+},
+{
+    "id":42,
+    "nombre":"Vestido rojo",
+    "precio":259.99,
+    "categoria":"Vestido",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/42.jfif"
+},
+{
+    "id":43,
+    "nombre":"Vestido ",
+    "precio":259.99,
+    "categoria":"Vestido",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/43.jfif"
+},
+{
+    "id":44,
+    "nombre":"Vestido ",
+    "precio":259.99,
+    "categoria":"Vestido",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/44.jfif"
+},
+{
+    "id":45,
+    "nombre":"Vestido ",
+    "precio":259.99,
+    "categoria":"Vestido",
+    "talla":"XS a 4xl",
+    "imagen":"imagenes/45.jfif"
+}
+] 

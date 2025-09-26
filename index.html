@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZAYEE</title>
+    <link rel="stylesheet" href="style.css">
+     <!--Remixicon-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+</head>
+
+<body>
+    <section id="inicio" class="container">
+        <div class="parent">
+            <div class="gradient"></div>
+            <nav class="nav">
+                <div class="nav_container">
+                    <figure class="nav_figure">
+                        <h1 class="font-bitcount">ZAYEE</h1>
+                    </figure>
+                    <label class="nav_toggle">
+                        <input type="checkbox" id="menu-input" class="nav_input">
+                    </label>
+                    <ul class="nav_list">
+                        <li class="nav item">
+                            <a href="#" class="nav_link">Inicio</a>
+                        </li>
+                        <li class="nav item">
+                            <a href="#" class="nav_link">¿Quienes somos?</a>
+                        </li>
+                        <li class="nav item">
+                            <a href="#" class="nav_link">Carrito</a>
+                        </li>
+                        <li class="nav item">
+                            <a href="#" class="nav_link">Programadores</a>
+                        </li>
+                        <li class="nav item">
+                            <a href="#" class="nav_link" id="sub">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="main_content">
+                <div class="left">
+                    <h3>Tienda de ropa</h3>
+                    <h1><span class="font-bitcount">ZAYEE</span></h1>
+                    <h2>Femenina</h2>
+                    <p>Venta de ropa femenina en todas las tallas con variedad de estilos.</p>
+                    <button>LEER MÁS</button>
+                </div>
+                <div class="right">
+                    <!-- <img src="imagenes/imagen.png" alt=""> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============= ACERCA DE NOSOTROS ============= -->
+    <section class = "about-wrapper">
+        <div class = " about-left">
+            <div class = " about-left-content">
+                <div>
+                    <div class = " shadow">
+                        <div class = " about-img">
+                            <img src ="imagenes/img.jpg" alt = "about-image">
+                        </div>
+                    </div>
+                    <h2>Tienda <br> ZAYEE</h2>
+                    <h3>Ropa Femenina</h3>
+                </div>
+                <ul class ="icons">
+                    <li><i class="ri-t-shirt-2-line"></i></li>
+                    <li><i class="ri-shopping-cart-fill"></i></li>
+                    <li> <i class="ri-shopping-bag-fill"></i></li>
+                    <li><i class="ri-hearts-fill"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class = " about-right">
+            <h1>Hola <span> !</h1>
+            <h2>Somos ZAYEE y esto es lo que te ofrecemos</h2>
+            <div class = "about-btns">
+                <button type = "button" class ="btn btn-pink">resume</button>
+                <button type = "button" class ="btn btn-white">projects</button>
+            </div>
+            <div class ="about-para">
+                <p>Somos una tienda de ropa donde tenemos todo tipo de estilos,diseños e incluso variedad de tallas donde siempre nos vamos a preocupar por tu bienestar y comodidad </p>
+                <p>¡Bienvenido/a a Tienda ZAYEE! Explora nuestras colecciones exclusivas y encuentra tu próximo look favorito. Si necesitas ayuda, ¡estoy aquí para asistirte!. </p>
+            </div>
+        </div>
+    </section>   
+
+<!-- ============= OFERTAS ============= -->
+    
+
+    
+    <!-- ============= CARRITO DE COMPRAS ============= -->
+
+    <!--Main-->
+    <main>
+        <div class="oferta">
+    <h2>🔥 ¡OFERTA ESPECIAL! 🔥</h2>
+    <p>Termina en:</p>
+    <div class="contador" id="contador">
+      <div><span id="dias">00</span>días</div>
+      <div><span id="horas">00</span>hrs</div>
+      <div><span id="minutos">00</span>min</div>
+      <div><span id="segundos">00</span>seg</div>
+    </div>
+  </div>
+
+        <h2 class="title">Nuestros productos</h2>
+    <!--Lista de Productos-->
+        <section class="card1">
+            
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/1.jfif" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Blusa</h4>
+                    <h2 class="descripcion__nombre">Blusa manga corta</h2>
+                    <p class="descripcion__precio">$149.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/5.jfif" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Blusa</h4>
+                    <h2 class="descripcion__nombre">Blusa de manga larga</h2>
+                    <p class="descripcion__precio">$199.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/11.jfif" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Sueter</h4>
+                    <h2 class="descripcion__nombre">Sueter</h2>
+                    <p class="descripcion__precio">$249.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/18.jfif" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Blusa deportiva</h4>
+                    <h2 class="descripcion__nombre">Blusa deportiva</h2>
+                    <p class="descripcion__precio">$199.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/23.jpg" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Falda larga con botones</h4>
+                    <h2 class="descripcion__nombre">Falda</h2>
+                    <p class="descripcion__precio">$199.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/22.jpg" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Falda</h4>
+                    <h2 class="descripcion__nombre">Falda</h2>
+                    <p class="descripcion__precio">$169.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/26.jpg" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Pantalon ancho</h4>
+                    <h2 class="descripcion__nombre">Pantalon</h2>
+                    <p class="descripcion__precio">$249.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+            <div class="cards__card">
+                <div class="card__img">
+                    <img src="imagenes/37.jpg" alt="">
+                </div>
+                <div class="card__descripcion">
+                    <h4 class="descripcion__categoria">Short</h4>
+                    <h2 class="descripcion__nombre">Short</h2>
+                    <p class="descripcion__precio">$249.99</p>
+                </div>
+                <button class="card__btn-shop" onclick="agregarProducto">
+                    <i class="ri-shopping-cart-fill"></i>Añadir al carrito
+                </button>
+            </div>
+        </section>
+        <button class="card__btn-shopping" onclick="agregarProducto">
+            <a href="carrito.html"><i class="ri-arrow-right-line"></i>Ver todo el catalago de productos</a>
+        </button>
+    </main>
+
+    <!-- ============= GALERIA DE ROPA ============= -->
+    <section id="galerias">
+        <h2>👗 Galería de Ropa</h2>
+    <div class="galeria">
+    
+    <div class="itemGaleria">
+      <img src="imagenes/galeria1.jfif" alt="Vestido Elegante">
+      <div class="overlayGaleria">
+        <h3>Conjunto Elegante</h3>
+        <p>$749 MXN</p>
+      </div>
+    </div>
+
+    <div class="itemGaleria">
+      <img src="imagenes/modelo2.avif" alt="Sudadera Casual">
+      <div class="overlayGaleria">
+        <h3>Chamarra</h3>
+        <p>$899 MXN</p>
+      </div>
+    </div>
+
+    <div class="itemGaleria">
+      <img src="imagenes/galeria3.webp" alt="Blusa Moderna">
+      <div class="overlayGaleria">
+        <h3>Pantalòn de mezclilla</h3>
+        <p>$399 MXN</p>
+      </div>
+    </div>
+
+    <div class="itemGaleria">
+      <img src="imagenes/galeria4.jpg" alt="Jeans Skinny">
+      <div class="overlayGaleria">
+        <h3>Ropa deportiva</h3>
+        <p>$599 MXN</p>
+      </div>
+    </div>
+
+  </div>
+    </section>
+
+    <!-- ============= EQUIPO ============= -->
+    <section id="equipo">
+        <h2>Equipo</h2>
+        <div class="equipo_contenedor">
+            <div class="person" style="--color: #CF0F47">
+        <div class="containerTeam">
+            <div class="conianer-inner">
+                <div class="circle"></div>
+                  <img src="imagenes/esmeralda.png" alt="">  
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Esmeralda Chagala</h3>
+            <p>Documentador Tecnico</p>
+        </div>
+
+
+    <div class="person" style="--color: #FF0B55">
+        <div class="containerTeam">
+            <div class="conianer-inner">
+                <div class="circle"></div>
+                  <img src="imagenes/edwin.png" alt="">  
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Edwin Olivares</h3>
+            <p>Documentador Tecnico</p>
+        </div>
+
+
+    <div class="person" style="--color: #85193C">
+        <div class="containerTeam">
+            <div class="conianer-inner">
+                <div class="circle"></div>
+                  <img src="imagenes/zaira.png" alt="">  
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Zaira Bruno</h3>
+            <p>Desarrollador Web</p>
+        </div>
+
+
+    <div class="person" style="--color: #4A102A">
+        <div class="containerTeam">
+            <div class="conianer-inner">
+                <div class="circle"></div>
+                  <img src="imagenes/adamaris.png" alt="">  
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Adamaris Modesto</h3>
+            <p>Documentador Tecnico</p>
+        </div>
+
+
+    <div class="person" style="--color: #A5158C">
+        <div class="containerTeam">
+            <div class="conianer-inner">
+                <div class="circle"></div>
+                  <img src="imagenes/gabriela.png" alt="">  
+                </div>
+            </div>
+            <div class="divider"></div>
+            <h3>Yamilet Duran</h3>
+            <p>Desarrollador Web</p>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- ============= CONTACTO ============= -->
+    <section id="contactanos">
+        <div class="contactForm">
+            <div class="form">
+                <div class="texto">
+                <h2>¡Hola!</h2>
+                <p>Gracias por visitarnos. En "ZAYEE", no esncanta  estar cerca de ti. Si tienes dudas,sugerencias o necesitas ayuda con tu pedido. Estamos aqui para ayudarte con lo que necesites. Puedes llamarnos, enviarnos un mensaje por WhatsApp, escribirnos al correo o llenar nuestro formulario. Simpre responderemos  lo mas rapido posible, porque  tu satisfaccion es nuestra prioridad.</p>
+                </div>
+                 <form action="">
+                    <div class="imputBox">
+                        <label for="">Tu nombre</label>
+                        <input type="text"placeholder="Nombre...">
+                    </div>
+                    <div class="imputBox">
+                        <label for="">Tu email</label>
+                        <input type="email"placeholder="Email...">
+                    </div>
+                    <div class="imputBox">
+                        <label for="">Tu mensaje</label>
+                        <textarea name="" id="" cols="30" rows="5" placeholder="Mensaje..."></textarea>
+                    </div>
+                    <input type="submit" value="Enviar Mensaje">
+                 </form>
+            </div>
+
+            <div class="info">
+                <div class="imgBox">
+                    <img src="imagenes/email2.png" alt="">
+                  </div>
+                  <div class="textBox">
+                    <div class="infoContact">
+                        <ion-icon name="map"></ion-icon><p> Calle Jose Maria Morelos y Pavón S/N Misantla Veracruz</p>
+                        </div>
+                        <div class="infoContact">
+                            <ion-icon name="call"></ion-icon><p>+52 235 110 80 41 </p>
+                         </div>
+                         <div class="infoContact">
+                            <ion-icon name="mail"></ion-icon><p>zayee.5@email.com </p>
+                         </div>
+                    </div>
+                    <div class="rrss">
+                        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    </div>
+              </div>
+        </div>
+</section>
+<section id="ubicacion">
+        <h2>Encuentranos</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.8293360072566!2d-96.85287488956189!3d19.93159538137991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85db11237232e069%3A0xd9cf63a0aac7544c!2sCEIT%20Misantla!5e0!3m2!1ses-419!2smx!4v1757382432278!5m2!1ses-419!2smx" width="600" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<footer id="footer">
+    <p>Zayee - Tu tienda de ropa @ 2025</p>
+</footer>
+      
+
+
+    <!-- ============= SCRIPT ============= -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
