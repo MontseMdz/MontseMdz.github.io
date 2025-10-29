@@ -59,12 +59,7 @@
         font-size: 4rem;
     }
 }
-@media (width<512px){
-    .titulo_inicio, .titulos_personajes h2, .titulo_video, .titulos_usos h2{
-        padding: 20px;                                         
-        font-size: 2.6rem;
-    }
-}
+
 /* ===================================
 sección definición
 =====================================*/
@@ -141,9 +136,18 @@ sección definición
         width: 80%;
         padding: 30px;
     }
+    .titulo_definicion{
+        text-align: center;
+    }
     .botones_definicion button{
         padding: 10px 30px;
         margin-left: 30px;
+        width: 60%;
+    }
+    .botones_definicion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 /* ===================================
@@ -204,10 +208,16 @@ sección personajes
 }
 @media (width<772px){
     .cajas_personajes{
-    width: 80%;
-    text-align: center;
+        width: 80%;
+        text-align: center;
+    }
 }
+@media (width<512px){
+    .cajas_personajes{
+        width: 90%;
+    }
 }
+
 /* ===================================
 sección video
 =====================================*/
@@ -273,12 +283,11 @@ sección usos
 }
 @media (width<772px){
     .cajas_usos{
-    width: 80%;
-
-}
-.titulos_usos h2{
-    font-size: 70px;
-}
+        width: 80%;
+    }
+    .titulos_usos h2{
+        font-size: 70px;
+    }
 }
 /* ===================================
 sección footer
@@ -289,5 +298,18 @@ sección footer
     font-size: 1.3rem;
     text-align: center;
     color: white;
+}
 
+
+@media (width<512px){
+    .titulo_inicio, .titulos_personajes h2, .titulo_video, .titulos_usos h2{
+        padding: 20px;                                         
+        font-size: 2.8rem;
+    }
+    .titulos_personajes h3, .titulos_usos h3{
+        display: none;
+    }
+    .usos_h3{
+        font-size: 1.2rem;
+    }
 }
