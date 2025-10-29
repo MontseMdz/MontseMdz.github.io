@@ -60,9 +60,9 @@
     }
 }
 @media (width<512px){
-    .titulo_inicio{
+    .titulo_inicio, .titulos_personajes h2, .titulo_video, .titulos_usos h2{
         padding: 20px;                                         
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
 }
 /* ===================================
@@ -289,4 +289,5 @@ sección footer
     font-size: 1.3rem;
     text-align: center;
     color: white;
+
 }
