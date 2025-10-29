@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image:url('imagenes/electricidad.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;                                            background: -webkit-linear-gradient(90deg, #dd2c00,#ff5722,#00bcd4);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #dd2c00,#ff5722,#00bcd4);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+.nav_logo{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: white;
+}
+.nav_list li{
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav_list li a{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.fondo_inicio{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titulo_inicio{
+    padding: 50px;
+    border-radius: 30px;
+    background: -webkit-linear-gradient(90deg, #28c7fa,#e42f45,#fa4848);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #28c7fa,#e42f45,#fa4848);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+    font-size: 5rem;
+    color:white;
+}
+.titulo_contenedor_definición img{
+    width: 100%;
+    height: 100vh;
+}
+@media (width<772px){
+    .nav_list{
+        display: none;
+    }
+    .titulo_inicio{
+        padding: 30px;                                         
+        font-size: 4rem;
+    }
+}
+@media (width<512px){
+    .titulo_inicio{
+        padding: 20px;                                         
+        font-size: 3rem;
+    }
+}
+/* ===================================
+sección definición
+=====================================*/
+.imagen_definicion{
+    width: 40%;
+    padding-bottom: 10px;
+}
+.caja_imagen{
+    width: 30%;
+    padding: 30px;
+}
+.contenedor_definicion{
+    width: 45%;
+    padding: 0% 30px;
+}
+#definicion{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.contenedor_definicion h2{
+    font-size: 60px;
+    color: #d6103b;
+    margin-bottom: 5px;
+}
+.botones_definicion button{
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    background-color: #2fbae4;
+    color: white;
+    border-color: #0063d4;
+}
+.caja_info p{
+    font-size: 18px;
+    color: #2000d4;
+    padding-bottom: 10px;
+}
+.caja_info ul{
+    color: #d40000;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.botones_definicion button{
+    padding: 10px 50px;
+    margin-left: 10px;
+}
+.botones_definicion button a{
+    color: white;
+}
+.caja_definicion{
+     display: flex;
+    justify-content: center;
+}
+.caja_info ul{
+    margin: 0px 20px;
+}
+@media (width<772px){
+    .imagen_definicion{
+        width: 100%;
+    }
+    .contenedor_definicion{
+        width: 100%;
+        padding: 20px;
+    }
+}
+@media (width<512px){
+    .caja_definicion{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .caja_imagen{
+        width: 80%;
+        padding: 30px;
+    }
+    .botones_definicion button{
+        padding: 10px 30px;
+        margin-left: 30px;
+    }
+}
+/* ===================================
+sección personajes
+=====================================*/
+.titulos_personajes h3{
+    font-size: 20px;
+    color:skyblue;
+    text-align: center;
+}
+.titulos_personajes h2{
+    font-size: 70px;
+    color: #2000d4;
+    text-align: center;
+}
+#PERSONAJES{
+    margin: 50px 50px;
+}
+.titulos_personajes{
+    margin-bottom: 40px;
+}
+.cajas_personajes{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 25%;
+}
+.cajas_personajes img{
+    width: 100%;
+}
+.contenedor_personajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 50px;
+}
+.personajes_h3, .personajes_parrafo, .personajes_button{
+    margin: 0px 20px;
+}
+.personajes_h3{
+    margin: 10px 20px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: blue;
+}
+.personajes_parrafo{
+    color: grey;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.personajes_button{
+    border-radius: 15px;
+    padding: 5px 30px;
+    margin-bottom: 20px;
+    background-color:blue;
+    border: none;
+}
+.personajes_button a{
+    color: white;
+}
+@media (width<772px){
+    .cajas_personajes{
+    width: 80%;
+    text-align: center;
+}
+}
+/* ===================================
+sección video
+=====================================*/
+#video{
+    text-align: center;
+}
+.titulo_video{
+    font-size: 100px;
+    margin-top: 50px;
+    padding: 30px;
+    color: #d6103b;
+}
+@media (width<772px){
+    .titulo_video{
+        font-size: 80px;
+    }
+    iframe{
+        width: 80%;
+        height: 315px;
+    }
+}
+/* ===================================
+sección usos
+=====================================*/
+.titulos_usos h3{
+     font-size: 15px;
+    color:#d6103b;
+    text-align: center;
+}
+.titulos_usos h2{
+    font-size: 100px;
+    color:#d6103b;
+    text-align: center;
+}
+#USOS{
+    padding:  100px 50px;
+}
+.titulos_usos{
+    margin-bottom: 60px;
+}
+.cajas_usos{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+    width: 25%;
+}
+.cajas_usos img{
+    width: 100%;
+    height: 200px;
+}
+.contenedor_usos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50PX;
+}
+.usos_h3, .usos_parrafo, .usos_button{
+    margin: 0px 20px;
+}
+.usos_h3{
+    margin: 30px 30px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    color:#d6103b;
+}
+@media (width<772px){
+    .cajas_usos{
+    width: 80%;
+
+}
+.titulos_usos h2{
+    font-size: 70px;
+}
+}
+/* ===================================
+sección footer
+=====================================*/
+#footer{
+    padding: 40px; 
+    background: -webkit-linear-gradient(90deg, #28c7fa,#e42f45,#fa4848);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(90deg, #28c7fa,#e42f45,#fa4848);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 1.3rem;
+    text-align: center;
+    color: white;
+}
